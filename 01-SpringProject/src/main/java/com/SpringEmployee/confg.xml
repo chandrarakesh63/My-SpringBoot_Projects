@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean name="emp1" class="com.SpringEmployee.Employee1">
+
+		<property name="employee">
+		<list>
+		<value>rakesh</value>	
+		
+		</list>
+		</property>
+		
+		<property name="fId" value="12"/>
+		<property name="firstName" value="Riku"></property>
+		<property name="lastName" value="Mohanty"></property>
+		<property name="phno" value="6370206045"></property>
+		<property name="Address" value="Odisha"></property>
+		<property name="salary" value="3000"></property>
+		<property name="dept" value="Java"></property>
+		
+		
+		
+		<property name="fId" value="13"/>
+		<property name="firstName" value="Biku"></property>
+		<property name="lastName" value="Mohanty"></property>
+		<property name="phno" value="7873505204"></property>
+		<property name="Address" value="Odisha"></property>
+		<property name="salary" value="3000"></property>
+		<property name="dept" value="Farmacy"></property>
+		
+		
+		
+		<property name="fId" value="15"/>
+		<property name="firstName" value="Abhilash"></property>
+		<property name="lastName" value="Bellama"></property>
+		<property name="phno" value="63702554558"></property>
+		<property name="Address" value="Hyderabad"></property>
+		<property name="salary" value="30000"></property>
+		<property name="dept" value="JavaClass"></property>
+		
+		
+		
+		<property name="fId" value="16"/>
+		<property name="firstName" value="Babul"></property>
+		<property name="lastName" value="kr Sahoo"></property>
+		<property name="phno" value="63738387429"></property>
+		<property name="Address" value="Odisha"></property>
+		<property name="salary" value="300003"></property>
+		<property name="dept" value="JavaTrainee"></property>
+		
+		
+		
+		<property name="fId" value="17"/>
+		<property name="firstName" value="Subham"></property>
+		<property name="lastName" value="kr Gupta"></property>
+		<property name="phno" value="6377538493"></property>
+		<property name="Address" value="Kolkota"></property>
+		<property name="salary" value="30000"></property>
+		<property name="dept" value="JavaPro"></property>
+		
+	</bean>
+
+
+</beans>
+
+

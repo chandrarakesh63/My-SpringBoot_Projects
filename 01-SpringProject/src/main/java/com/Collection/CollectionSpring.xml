@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean name="coll" class="com.Collection.CollectionsPractic">
+		<property name="name" value="Rakesh" />
+		
+		<property name="phones">
+			<list>
+				<value> 6636363663</value>
+				<value> 5146521512</value>
+				<value> 58493848</value>
+			</list>
+		</property>
+
+		<property name="address">
+			<set>
+			 	<value> Odisha </value>
+				<value> Bangalore</value>
+				<value> Hyderabad </value>
+			</set>
+		</property>
+		<property name="course">
+		<map>
+		<entry key="java" value="2months"/>
+		<entry key="javaaa" value="3Months"/>
+		<entry key="test" value="4Months"/>
+		</map>
+		</property>
+	</bean>
+</beans>

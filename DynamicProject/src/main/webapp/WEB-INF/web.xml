@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                            http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+
+
+
+      
+      <servlet>
+         <servlet-name>hiii</servlet-name>
+        <servlet-class>SessionServletProgram</servlet-class>
+       </servlet>
+       
+        <servlet-mapping>
+        <servlet-name>hiii</servlet-name>
+        <url-pattern>session</url-pattern>
+        </servlet-mapping>
+         
+        <servlet>
+         <servlet-name>Rakesh</servlet-name>
+        <servlet-class>DynamicPractice.PracticeProgram</servlet-class>
+        </servlet> 
+        <servlet-mapping>
+        <servlet-name>Rakesh</servlet-name>
+        <url-pattern>/registration</url-pattern>
+        
+        </servlet-mapping>
+
+        <servlet>
+         <servlet-name>Raka</servlet-name>
+        <servlet-class>DynamicProject.EvalutionCalculator.CalculatorServlet</servlet-class>
+        </servlet> 
+        
+        <servlet-mapping>
+        <servlet-name>Raka</servlet-name>
+        <url-pattern>/add</url-pattern>
+        
+        </servlet-mapping>
+        
+        
+    <servlet>
+    
+    <servlet-name>stu</servlet-name>
+    <servlet-class>StudentProgram.Student</servlet-class>
+     </servlet>
+     <servlet>
+    <servlet-name>employee</servlet-name>
+    <servlet-class>motivityProgram.Employee</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>stu</servlet-name>
+    <url-pattern>/student</url-pattern>
+    </servlet-mapping>
+       
+    <servlet-mapping>
+    
+    <servlet-name>employee</servlet-name>
+    <url-pattern>/employee</url-pattern>
+    
+    </servlet-mapping>
+    
+
+ </web-app>
